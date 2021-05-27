@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Itau.Backend.Challenge.Interfaces</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\itau.backend.challenge.application.models\itau.backend.challenge.application.models.csproj" />
+  </ItemGroup>
+
+</Project>

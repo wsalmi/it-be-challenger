@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Itau.Backend.Challenge</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\itau.backend.challenge.interfaces\itau.backend.challenge.interfaces.csproj" />
+    <ProjectReference Include="..\itau.backend.challenge.ioc\itau.backend.challenge.ioc.csproj" />
+  </ItemGroup>
+
+
+</Project>
