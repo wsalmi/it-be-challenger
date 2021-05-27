@@ -1,4 +1,8 @@
-﻿# .net Core
-/bin
-/obj
+﻿# vs
+/.vs
+*.user
+
+# .net Core
+bin
+obj
 
