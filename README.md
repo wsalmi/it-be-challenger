@@ -3,7 +3,8 @@
 ## ⚙ Como executar
 ### 🔧 Visual Studio
 - Abrir o arquivo [itau-backend-challenge.sln](https://github.com/wsalmi/it-be-challenger/blob/master/itau-backend-challenge.sln)
-- Verificar se todos os projetos foram carregados adequadamente
+- Verificar se todos os projetos foram carregados adequadamente<br/>
+![Solution explorer](readme-assets/devenv_Rkm7H1zLGX.png?raw=true "Solution explorer")
 - Executar utilizando suas configurações de launch preferida (IIS Express, Console)
 
 ### 🔨 VS Code
@@ -52,16 +53,7 @@ Durante a etapa de design, me deparei com questões como:
 - No final do raciocínio, olhando para a complexidade da aplicação e seu tipo de trabalho, optei por utilizar recursos nativos do framework e estratégias de organização da solução, utilizando IoC apenas para recursos que fazem sentido o baixo acoplamento (ex: Services).
 
 ### 🖊 Desenho
-```mermaid
-graph LR
-A[WebAPI] --> B[IoC]
-A --> C[Interfaces]
-B --> C
-B --> E
-E[Services] --> C
-E --> D
-A --> D[Models]
-```
+![Alt text](readme-assets/msedge_etk7JToa0V.png?raw=true "Solution explorer")
 
 ## Rotas
 ### POST - /api/v1/Password
